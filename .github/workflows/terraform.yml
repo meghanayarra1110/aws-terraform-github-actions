@@ -41,3 +41,4 @@ jobs:
 
       - name: Terraform Plan
         run: terraform plan
+# OIDC trust policy updated
