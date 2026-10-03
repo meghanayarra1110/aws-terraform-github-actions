@@ -1,4 +1,11 @@
 terraform {
+  backend "s3" {
+    bucket       = "meghanayarra-terraform-state-024532670145"
+    key          = "terraform.tfstate"
+    region       = "ap-northeast-3"
+    use_lockfile = true
+  }
+
   required_providers {
     aws = {
       source = "hashicorp/aws"
