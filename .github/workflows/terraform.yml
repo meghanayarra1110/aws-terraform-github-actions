@@ -47,5 +47,5 @@ jobs:
         run: terraform validate
 
       - name: Terraform Plan
-        run: terraform plan# OIDC trust policy test
-# Final OIDC test
+        run: terraform plan
+
